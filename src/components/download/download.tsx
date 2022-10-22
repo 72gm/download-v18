@@ -12,7 +12,7 @@ export const DownloadComponent = () => {
   };
 
   const getFileName = () => {
-    return "some-file.pdf";
+    return "some-file.csv";
   };
 
   const { ref, url, download, name } = useDownloadFile({
